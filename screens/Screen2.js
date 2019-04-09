@@ -30,9 +30,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     width: 360
   },
-  image: {
-
-  },
   text: {
     fontFamily: 'Roboto',
     fontSize: 20,
@@ -45,8 +42,8 @@ const styles = StyleSheet.create({
     right: 20,
     bottom: 90,
     backgroundColor: '#0DD5FF',
-    width: 90,
-    height: 90,
+    width: 80,
+    height: 80,
     alignItems: 'center',
     justifyContent: 'center',
     elevation: 0,

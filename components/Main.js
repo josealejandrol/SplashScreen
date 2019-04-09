@@ -5,11 +5,11 @@ import Screen1 from '../screens/Screen1'
 import Screen2 from '../screens/Screen2'
 import Screen3 from '../screens/Screen3'
 
-export default class App extends Component {
+export default class Main extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Screen3/>
+        <Screen1/>
       </View>
     );
   }
@@ -17,9 +17,9 @@ export default class App extends Component {
 
 const styles = StyleSheet.create({
   container: {
-    // flex: 1,
-    // justifyContent: 'center',
-    // alignItems: 'center',
-    // backgroundColor: '#F5FCFF',
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#F5FCFF',
   },
 });

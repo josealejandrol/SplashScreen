@@ -1,23 +1,22 @@
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View} from 'react-native';
+import {StyleSheet, Text, View} from 'react-native';
 
 import Main from './components/Main';
+import HomeScreen from './components/HomeScreen';
 
 export default class App extends Component {
   render() {
     return (
-      <View style={styles.container}>
-        <Main/>
-      </View>
+      <HomeScreen/>
     );
   }
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    // flex: 1,
+    // justifyContent: 'center',
+    // alignItems: 'center',
+    // backgroundColor: '#F5FCFF',
   },
 });
